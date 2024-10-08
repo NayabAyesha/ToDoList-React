@@ -1,0 +1,178 @@
+body{
+
+    background-color: lavender;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .footer
+  {
+    background-color: rgb(9, 12, 9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 100vh;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 30%;
+    display: flex;
+  color: black;
+  }
+  
+  .logo img {
+    width: 35%;
+    border: 3px solid beige;
+    
+  }
+ /* Styling the form */
+.form-inline {
+    display: flex; /* Aligns the input and button in one line */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the search input field */
+  .form-control {
+    padding: 8px 12px; /* Add padding for better readability */
+    border: 2px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Rounded corners */
+    width: 250px; /* Adjust the width */
+    margin-right: 10px; /* Space between the input and the button */
+    font-size: 16px;
+  }
+  
+  /* Styling the search button */
+  .btn {
+    background-color:lavender; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Add padding for a comfortable clickable area */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px;
+  }
+  .add
+  {
+    background-color:lightcoral; /* Green background */
+    color: black; /* White text */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Add padding for a comfortable clickable area */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px;
+    margin-left: 10px;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .add:hover {
+    background-color: rgb(173, 151, 173); /* Slightly darker green on hover */
+  }
+  .btn:hover {
+    background-color: rgb(173, 151, 173); /* Slightly darker green on hover */
+  }
+  
+  /* Ensure proper spacing and margins on smaller screens */
+  @media (max-width: 768px) {
+    .form-control {
+      width: 100%; /* Full width on small screens */
+      margin-bottom: 10px; /* Space between input and button on stacked layout */
+    }
+  
+    .form-inline {
+      flex-direction: column; /* Stack form elements vertically */
+    }
+  }
+  
+  .name
+  {
+    color:black;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .navbar {
+  background-color: lavenderblush;
+    display: flex;
+  }
+  
+  nav{
+    display: flex;
+    text-align: right;
+  }
+  
+  nav ul
+  {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li{
+    height: 50px;
+  }
+  
+  nav ul a {
+   height: 100%;
+   padding: 0 30px;
+   text-decoration: solid;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    text-align: center;
+  }
+  .form-group{
+    background-color: beige;
+    margin: 1px;
+    padding: 1px;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    
+  
+  }
+  .form-group a
+  {
+    color: black;
+    
+   text-decoration: solid;
+   text-decoration: none;
+   text-align: center;
+ 
+   justify-content: center;
+   align-items: center;
+  }
+ 
+  .container
+  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .rightnav
+  {
+    color: lightsalmon;
+  
+    justify-content: flex-end;
+  display: flex;
+  }
+  
+  
+ 
+  
+  .btn {
+    color: lightsalmon;
+  }
+  
